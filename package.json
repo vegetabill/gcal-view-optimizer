@@ -1,0 +1,26 @@
+{
+  "name": "gcal-view-optimizer",
+  "version": "1.0.0",
+  "description": "Hides early morning hours from your calendar view to avoid large empty space",
+  "main": "content.js",
+  "scripts": {
+    "start:firefox": "web-ext run --source-dir ./extension-dist/"
+  },
+  "author": "William DePhillips github.com/vegetabill",
+  "license": "MPL-2.0",
+  "keywords": [
+    "firefox",
+    "webextension"
+  ],
+  "webext": [
+    "manifest.json",
+    "content.js",
+    "icon-48.png",
+    "icon-96.png",
+    "LICENSE"
+  ],
+  "private": true,
+  "devDependencies": {
+    "web-ext": "^10.1.0"
+  }
+}

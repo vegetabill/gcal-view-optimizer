@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Google Calendar View Optimizer",
+  "version": "1.0.0",
+  "description": "Hides early morning hours from your calendar view to avoid large empty space",
+  "permissions": [
+    "https://calendar.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://calendar.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon-48.png",
+    "96": "icon-96.png"
+  }
+}
