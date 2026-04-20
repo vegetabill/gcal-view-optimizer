@@ -19,6 +19,10 @@
     "icon-96.png",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vegetabill/gcal-view-optimizer.git"
+  },
   "private": true,
   "devDependencies": {
     "web-ext": "^10.1.0"
