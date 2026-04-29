@@ -4,12 +4,12 @@
 
 To install use the public app store:
 
-https://addons.mozilla.org/en-US/firefox/addon/photo-for-new-tab/
+https://addons.mozilla.org/addon/google-calendar-view-optimizer/
 
 
 ## Demo
 
-xxx
+![](./gcal-screenshot.png)
 
 ## Motivation
 

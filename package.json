@@ -4,7 +4,8 @@
   "description": "Hides early morning hours from your calendar view to avoid large empty space",
   "main": "content.js",
   "scripts": {
-    "start:firefox": "web-ext run --source-dir ./extension-dist/"
+    "start:firefox": "web-ext run --source-dir ./extension-dist/",
+    "build": "web-ext build --overwrite-dest"
   },
   "author": "William DePhillips github.com/vegetabill",
   "license": "MPL-2.0",
